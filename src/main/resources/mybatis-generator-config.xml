@@ -10,7 +10,7 @@
     <!--中文：http://mbg.cndocs.tk/-->
 
     <!--添加你本地的驱动jar-->
-    <classPathEntry location="D:\maven\my_local_repository\mysql\mysql-connector-java\5.1.21\mysql-connector-java-5.1.21.jar"/>
+    <classPathEntry location="E:\maven_repository\mysql\mysql-connector-java\5.1.41\mysql-connector-java-5.1.41.jar"/>
     
     <context id="context" targetRuntime="MyBatis3">
 
@@ -41,7 +41,7 @@
         </sqlMapGenerator>
 
         <!--要生成的 Mapper 接口类-->
-        <javaClientGenerator targetPackage="com.generator.mapper" targetProject="THIS_CONFIGURATION_IS_NOT_REQUIRED" type="XMLMAPPER">
+        <javaClientGenerator targetPackage="generator.mapper" targetProject="THIS_CONFIGURATION_IS_NOT_REQUIRED" type="XMLMAPPER">
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
